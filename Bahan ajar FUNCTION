@@ -1,0 +1,34 @@
+#yang termasuk function
+
+#menggunakan kata kunci return
+def sayHello():
+    print("selamat datang")
+
+print(sayHello())
+
+             #or
+             
+#menjalankan function           
+def sayHello():
+     return "Selamat Pagi!"
+ 
+print(sayHello ())
+ 
+ 
+ #FUNCTION ARGUMEN
+ 
+def sayHello(name):
+     return "Annyeonghaseo " + name
+ 
+ #jalaninn function dengan argumen
+print(sayHello("Poppy"))
+  
+def addition(num1 , num2):
+    result = num1 + num2
+    print(num1, "+", num2,"=",result)
+    
+addition(15,16)
+
+
+
+
